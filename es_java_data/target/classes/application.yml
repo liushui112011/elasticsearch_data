@@ -1,12 +1,7 @@
 spring:
   data:
     elasticsearch:
-      cluster-nodes: 10.150.33.122:9300
+      cluster-nodes: 10.150.33.122:9300 # 配置IP及端口号
       cluster-name: dmpes
       repositories:
         enabled: true
-  application:
-    name: demo
-server:
-  port: 8080
-
